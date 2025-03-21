@@ -1,0 +1,16 @@
+{
+  "name": "oas-to-mcp",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.1",
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "openapi-types": "^12.1.3"
+  }
+}
